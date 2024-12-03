@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:background="@drawable/bottom_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/Udata"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="Profile"
+            android:textSize="40sp"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:id="@+id/editProfile"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/edit"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Udata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bottom_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/name" />
+
+            <EditText
+                android:id="@+id/Uname"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:elegantTextHeight="true"
+                android:ems="10"
+                android:hint="Mr. Jones"
+                android:enabled="false"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bottom_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_person_black_24dp" />
+
+            <EditText
+                android:id="@+id/Uemail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:elegantTextHeight="true"
+                android:ems="10"
+                android:enabled="false"
+                android:hint="abc@yahoo.com"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bottom_border"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_contact_phone_black_24dp" />
+
+            <EditText
+                android:id="@+id/phoneStart"
+                android:layout_width="63dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/transparent"
+                android:clickable="false"
+                android:enabled="false"
+                android:elegantTextHeight="true"
+                android:ems="5"
+                android:hint="+92"
+                android:inputType="phone"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="textStart"
+                android:textColorHint="@color/black" />
+
+
+            <EditText
+                android:id="@+id/Uphone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:elegantTextHeight="true"
+                android:ems="10"
+                android:enabled="false"
+                android:hint="3218818802"
+                android:inputType="phone"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bottom_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/cal"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/calendar" />
+
+        <EditText
+            android:id="@+id/Udob"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elegantTextHeight="true"
+            android:ems="10"
+            android:hint="09-11-1998"
+            android:enabled="false"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bottom_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/city" />
+
+        <EditText
+            android:id="@+id/Ucity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elegantTextHeight="true"
+            android:ems="10"
+            android:hint="Lahore"
+            android:enabled="false"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bottom_border"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/occupation" />
+
+        <EditText
+            android:id="@+id/Uoccupation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:elegantTextHeight="true"
+            android:ems="10"
+            android:inputType=""
+            android:hint="Student"
+            android:enabled="false"
+            android:imeOptions="actionDone"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/black" />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:background="@color/c4"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Udata" />
+
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/historyRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

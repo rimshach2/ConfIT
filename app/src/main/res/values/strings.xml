@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">ConFit</string>
+    <string name="title_home">Presentation</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="Welcome">Welcome</string>
+    <string name="forgot_password">Forgot your Password?</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="email_id">Email ID</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in"><u>Sign In</u></string>
+    <string name="sign_up_with">Sign Up With</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_or_username">Email or Username</string>
+    <string name="we_will_send_you_a_one_time_sms_message">We will send you a One time SMS Message.</string>
+    <string name="email_missing_error_message">Please Enter Email</string>
+    <string name="password_missing_error_message">Please Enter Password</string>
+    <string name="name_missing_error_message">Please Enter Name</string>
+    <string name="number_missing_error_message">Please Enter Phone Number</string>
+    <string name="Re_password_missing_error_message">Please Re-Enter Password</string>
+    <string name="passwords_dont_match">Entered Passwords do not match</string>
+    <string name="logout">Logout</string>
+    <string name="invalid_credentials">Ooops! Invalid Credentials</string>
+
+    <string name="url">https://confitt.herokuapp.com/api/v1/</string>
+    <string name="url_speech">https://confit-speach.herokuapp.com/score_presentation/v1</string>
+    <string name="facebook_app_id">785219431944359</string>
+    <string name="fb_login_protocol_scheme">fb785219431944359</string>
+    <string name="view_history">View Detailed History</string>
+
+    <style name="FacebookLoginButton">
+        <item name="android:background">@drawable/facebook</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <string-array name="occupation_arr">
+        <item>Student</item>
+        <item>BussinessMan</item>
+        <item>Teacher</item>
+        <item>Office Worker</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#153B71</color>
+    <color name="colorPrimaryDark">#00554F</color>
+    <color name="colorAccent">#FDB409</color>
+
+    <color name="c1">#153B71</color>
+    <color name="c2">#00554F</color>
+    <color name="c3">#596C68</color>
+    <color name="c4">#FDB409</color>
+    <!--<color name="c4">#403f48</color>-->
+
+    <color name="c5">#ffffff</color>
+
+    <color name="grey">#D0D3CF</color>
+    <color name="darkGreen">#95a792</color>
+    <color name="colorlogo1">#FAA60E</color>
+    <color name="colorlogo2">#153B71</color>
+    <color name="colorlogo3">#1955A7</color>
+    <color name="lightBlue">#5092D1</color>
+    <color name="colorgray">#E7E7E7</color>
+    <color name="lightGray">#f0f0f0</color>
+    <color name="eventCardsColor">#FAA60E</color>
+    <color name="colordarkgray">#474A56</color>
+    <color name="colorGreen">#00E200</color>
+    <color name="colorRed">#FF4444</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

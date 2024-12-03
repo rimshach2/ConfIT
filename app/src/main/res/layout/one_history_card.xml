@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/one"
+    android:background="@drawable/border1">
+
+    <TextView
+        android:id="@+id/presentation_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presentation 1"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                android:text="Loudness Score" />
+            <TextView
+                android:id="@+id/loudnessProgressScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="20"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/loudnessProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="25"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:progressTint="@color/c2"
+            android:progress="24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                android:text="Clarity Score" />
+            <TextView
+                android:id="@+id/clarityProgressScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="15"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/clarityProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="25"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:progressTint="@color/c3"
+            android:progress="15" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                android:text="Fluency Score" />
+
+            <TextView
+                android:id="@+id/fluencyProgressScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="7"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/fluencyProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="25"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:progressTint="@color/c4"
+            android:progress="7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                android:text="Emotion Appropriateness Score" />
+            <TextView
+                android:id="@+id/emotionProgressScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:id="@+id/emotionProgress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="25"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:progressTint="@color/lightBlue"
+            android:progress="10"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
